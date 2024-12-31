@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708FA71D2D23FCD800504FF4 /* MyBoxes in Frameworks */ = {isa = PBXBuildFile; productRef = 708FA71C2D23FCD800504FF4 /* MyBoxes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708FA6F02D23FC0700504FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708FA6D72D23FC0500504FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708FA6DE2D23FC0500504FF4;
+			remoteInfo = HarnesApp;
+		};
+		708FA6FA2D23FC0700504FF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708FA6D72D23FC0500504FF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708FA6DE2D23FC0500504FF4;
+			remoteInfo = HarnesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708FA6DF2D23FC0500504FF4 /* HarnesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarnesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708FA6EF2D23FC0700504FF4 /* HarnesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarnesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708FA6F92D23FC0700504FF4 /* HarnesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarnesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		708FA6E12D23FC0500504FF4 /* HarnesApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarnesApp;
+			sourceTree = "<group>";
+		};
+		708FA6F22D23FC0700504FF4 /* HarnesAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarnesAppTests;
+			sourceTree = "<group>";
+		};
+		708FA6FC2D23FC0700504FF4 /* HarnesAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarnesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708FA6DC2D23FC0500504FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708FA71D2D23FCD800504FF4 /* MyBoxes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6EC2D23FC0700504FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6F62D23FC0700504FF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708FA6D62D23FC0500504FF4 = {
+			isa = PBXGroup;
+			children = (
+				708FA6E12D23FC0500504FF4 /* HarnesApp */,
+				708FA6F22D23FC0700504FF4 /* HarnesAppTests */,
+				708FA6FC2D23FC0700504FF4 /* HarnesAppUITests */,
+				708FA71B2D23FCD800504FF4 /* Frameworks */,
+				708FA6E02D23FC0500504FF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708FA6E02D23FC0500504FF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708FA6DF2D23FC0500504FF4 /* HarnesApp.app */,
+				708FA6EF2D23FC0700504FF4 /* HarnesAppTests.xctest */,
+				708FA6F92D23FC0700504FF4 /* HarnesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708FA71B2D23FCD800504FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708FA6DE2D23FC0500504FF4 /* HarnesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708FA7032D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesApp" */;
+			buildPhases = (
+				708FA6DB2D23FC0500504FF4 /* Sources */,
+				708FA6DC2D23FC0500504FF4 /* Frameworks */,
+				708FA6DD2D23FC0500504FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				708FA6E12D23FC0500504FF4 /* HarnesApp */,
+			);
+			name = HarnesApp;
+			packageProductDependencies = (
+				708FA71C2D23FCD800504FF4 /* MyBoxes */,
+			);
+			productName = HarnesApp;
+			productReference = 708FA6DF2D23FC0500504FF4 /* HarnesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708FA6EE2D23FC0700504FF4 /* HarnesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708FA7062D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesAppTests" */;
+			buildPhases = (
+				708FA6EB2D23FC0700504FF4 /* Sources */,
+				708FA6EC2D23FC0700504FF4 /* Frameworks */,
+				708FA6ED2D23FC0700504FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708FA6F12D23FC0700504FF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				708FA6F22D23FC0700504FF4 /* HarnesAppTests */,
+			);
+			name = HarnesAppTests;
+			packageProductDependencies = (
+			);
+			productName = HarnesAppTests;
+			productReference = 708FA6EF2D23FC0700504FF4 /* HarnesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		708FA6F82D23FC0700504FF4 /* HarnesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708FA7092D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesAppUITests" */;
+			buildPhases = (
+				708FA6F52D23FC0700504FF4 /* Sources */,
+				708FA6F62D23FC0700504FF4 /* Frameworks */,
+				708FA6F72D23FC0700504FF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708FA6FB2D23FC0700504FF4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				708FA6FC2D23FC0700504FF4 /* HarnesAppUITests */,
+			);
+			name = HarnesAppUITests;
+			packageProductDependencies = (
+			);
+			productName = HarnesAppUITests;
+			productReference = 708FA6F92D23FC0700504FF4 /* HarnesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708FA6D72D23FC0500504FF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					708FA6DE2D23FC0500504FF4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					708FA6EE2D23FC0700504FF4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 708FA6DE2D23FC0500504FF4;
+					};
+					708FA6F82D23FC0700504FF4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 708FA6DE2D23FC0500504FF4;
+					};
+				};
+			};
+			buildConfigurationList = 708FA6DA2D23FC0500504FF4 /* Build configuration list for PBXProject "HarnesApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708FA6D62D23FC0500504FF4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 708FA6E02D23FC0500504FF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708FA6DE2D23FC0500504FF4 /* HarnesApp */,
+				708FA6EE2D23FC0700504FF4 /* HarnesAppTests */,
+				708FA6F82D23FC0700504FF4 /* HarnesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708FA6DD2D23FC0500504FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6ED2D23FC0700504FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6F72D23FC0700504FF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708FA6DB2D23FC0500504FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6EB2D23FC0700504FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FA6F52D23FC0700504FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708FA6F12D23FC0700504FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708FA6DE2D23FC0500504FF4 /* HarnesApp */;
+			targetProxy = 708FA6F02D23FC0700504FF4 /* PBXContainerItemProxy */;
+		};
+		708FA6FB2D23FC0700504FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708FA6DE2D23FC0500504FF4 /* HarnesApp */;
+			targetProxy = 708FA6FA2D23FC0700504FF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		708FA7012D23FC0700504FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		708FA7022D23FC0700504FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708FA7042D23FC0700504FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarnesApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708FA7052D23FC0700504FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarnesApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		708FA7072D23FC0700504FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarnesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarnesApp";
+			};
+			name = Debug;
+		};
+		708FA7082D23FC0700504FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarnesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarnesApp";
+			};
+			name = Release;
+		};
+		708FA70A2D23FC0700504FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarnesApp;
+			};
+			name = Debug;
+		};
+		708FA70B2D23FC0700504FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = networkoperationapp.code.challange.HarnesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarnesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708FA6DA2D23FC0500504FF4 /* Build configuration list for PBXProject "HarnesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708FA7012D23FC0700504FF4 /* Debug */,
+				708FA7022D23FC0700504FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708FA7032D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708FA7042D23FC0700504FF4 /* Debug */,
+				708FA7052D23FC0700504FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708FA7062D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708FA7072D23FC0700504FF4 /* Debug */,
+				708FA7082D23FC0700504FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708FA7092D23FC0700504FF4 /* Build configuration list for PBXNativeTarget "HarnesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708FA70A2D23FC0700504FF4 /* Debug */,
+				708FA70B2D23FC0700504FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		708FA71C2D23FCD800504FF4 /* MyBoxes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyBoxes;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 708FA6D72D23FC0500504FF4 /* Project object */;
+}
