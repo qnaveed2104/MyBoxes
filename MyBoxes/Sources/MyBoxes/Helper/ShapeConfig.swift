@@ -15,7 +15,7 @@ import SwiftUICore
     let shapeColor: Color
     let shapeType: ShapeType
     
-     public init(noOfShare: Int = 3, shapeWidth: CGFloat = 50, shapeHeight: CGFloat = 50, shapeColor: Color = .yellow, shapeType: ShapeType =
+     public init(noOfShare: Int = 3, shapeWidth: CGFloat = 50, shapeHeight: CGFloat = 50, shapeColor: Color = .green, shapeType: ShapeType =
         .square) {
         self.noOfShape = noOfShare
         self.shapeWidth = shapeWidth

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		708FA71D2D23FCD800504FF4 /* MyBoxes in Frameworks */ = {isa = PBXBuildFile; productRef = 708FA71C2D23FCD800504FF4 /* MyBoxes */; };
+		708FA7642D2422B600504FF4 /* MyBoxes in Frameworks */ = {isa = PBXBuildFile; productRef = 708FA7632D2422B600504FF4 /* MyBoxes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708FA71D2D23FCD800504FF4 /* MyBoxes in Frameworks */,
+				708FA7642D2422B600504FF4 /* MyBoxes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			);
 			name = HarnesApp;
 			packageProductDependencies = (
-				708FA71C2D23FCD800504FF4 /* MyBoxes */,
+				708FA7632D2422B600504FF4 /* MyBoxes */,
 			);
 			productName = HarnesApp;
 			productReference = 708FA6DF2D23FC0500504FF4 /* HarnesApp.app */;
@@ -568,7 +568,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		708FA71C2D23FCD800504FF4 /* MyBoxes */ = {
+		708FA7632D2422B600504FF4 /* MyBoxes */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MyBoxes;
 		};
