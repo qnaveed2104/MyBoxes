@@ -1,0 +1,15 @@
+{
+  "originHash" : "efe8215f82421c4bb2d2dae723c3a28890713b9fd2979fde0b7571d5ab646d9f",
+  "pins" : [
+    {
+      "identity" : "myboxes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/qnaveed2104/MyBoxes.git",
+      "state" : {
+        "revision" : "a2783370065edff3794b45c9475972501a6f96c6",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}

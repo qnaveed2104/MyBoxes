@@ -2,8 +2,47 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MyBoxes">
+      location = "group:Package.swift">
    </FileRef>
+   <Group
+      location = "group:Sources"
+      name = "Sources">
+      <Group
+         location = "group:MyBoxes"
+         name = "MyBoxes">
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:ShapeContentView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DrawShape.swift">
+         </FileRef>
+         <Group
+            location = "group:Helper"
+            name = "Helper">
+            <FileRef
+               location = "group:ShapeDetails.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ShapeConfig.swift">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Tests"
+      name = "Tests">
+      <Group
+         location = "group:MyBoxesTests"
+         name = "MyBoxesTests">
+         <FileRef
+            location = "group:MyBoxesTests.swift">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:HarnesApp/HarnesApp.xcodeproj">
    </FileRef>
